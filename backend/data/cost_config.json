@@ -1,0 +1,52 @@
+{
+  "cost_components": {
+    "procedure": { "min_pct": 0.45, "max_pct": 0.55, "label": "Procedure & Clinical Intervention" },
+    "hospital_stay": { "min_pct": 0.12, "max_pct": 0.18, "label": "Hospital Stay & Nursing Care" },
+    "doctor_fees": { "min_pct": 0.08, "max_pct": 0.12, "label": "Doctor & Anaesthesia Fees" },
+    "diagnostics": { "min_pct": 0.08, "max_pct": 0.12, "label": "Diagnostics (Pre & Post)" },
+    "medicines": { "min_pct": 0.06, "max_pct": 0.10, "label": "Medicines & Consumables" },
+    "contingency": { "min_pct": 0.10, "max_pct": 0.15, "label": "Contingency (Complications)" }
+  },
+  "city_multipliers": {
+    "mumbai": 1.35,
+    "delhi": 1.25,
+    "bangalore": 1.20,
+    "chennai": 1.15,
+    "hyderabad": 1.10,
+    "pune": 1.15,
+    "kolkata": 1.05,
+    "ahmedabad": 1.00,
+    "surat": 0.95,
+    "jaipur": 0.90,
+    "nagpur": 0.90,
+    "lucknow": 0.85,
+    "kanpur": 0.80,
+    "indore": 0.85,
+    "bhopal": 0.80,
+    "default": 0.75
+  },
+  "comorbidity_adjustments": {
+    "diabetes": 0.15,
+    "hypertension": 0.10,
+    "obesity": 0.08,
+    "heart_disease": 0.20,
+    "copd": 0.12,
+    "kidney_disease": 0.18,
+    "liver_disease": 0.15,
+    "cancer": 0.25
+  },
+  "combo_adjustments": {
+    "diabetes+hypertension": 0.30,
+    "diabetes+heart_disease": 0.40,
+    "hypertension+heart_disease": 0.35
+  },
+  "age_adjustment": {
+    "above_60": 0.12,
+    "above_70": 0.20
+  },
+  "tier_multipliers": {
+    "government": 0.5,
+    "mid": 0.85,
+    "premium": 1.0
+  }
+}

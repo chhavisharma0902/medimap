@@ -1,0 +1,148 @@
+{
+  "procedures": [
+    {
+      "icd_code": "I25.1",
+      "condition": "Atherosclerotic heart disease",
+      "procedure": "Coronary Angioplasty (PCI)",
+      "procedure_short": "Angioplasty",
+      "keywords": ["angioplasty", "angio", "heart blockage", "coronary", "stent", "cad", "coronary artery disease"],
+      "symptom_keywords": ["chest pain", "angina", "heart pain", "breathlessness on exertion"],
+      "specialty": "cardiology",
+      "hospital_stay_days": [3, 5],
+      "base_cost_inr": 200000,
+      "cost_range_factor": 0.85
+    },
+    {
+      "icd_code": "I25.1",
+      "condition": "Atherosclerotic heart disease - CABG",
+      "procedure": "Coronary Artery Bypass Graft (CABG)",
+      "procedure_short": "Bypass Surgery",
+      "keywords": ["bypass", "cabg", "heart bypass", "bypass surgery"],
+      "symptom_keywords": ["multiple vessel disease", "triple vessel disease"],
+      "specialty": "cardiac surgery",
+      "hospital_stay_days": [7, 12],
+      "base_cost_inr": 400000,
+      "cost_range_factor": 0.8
+    },
+    {
+      "icd_code": "M17.1",
+      "condition": "Primary osteoarthritis of knee",
+      "procedure": "Total Knee Replacement (TKR)",
+      "procedure_short": "Knee Replacement",
+      "keywords": ["knee replacement", "tkr", "knee surgery", "knee joint replacement", "arthroplasty"],
+      "symptom_keywords": ["knee pain", "knee swelling", "difficulty walking", "joint pain"],
+      "specialty": "orthopedics",
+      "hospital_stay_days": [4, 7],
+      "base_cost_inr": 180000,
+      "cost_range_factor": 0.75
+    },
+    {
+      "icd_code": "N20.0",
+      "condition": "Calculus of kidney",
+      "procedure": "Percutaneous Nephrolithotomy (PCNL)",
+      "procedure_short": "Kidney Stone Surgery",
+      "keywords": ["kidney stone", "pcnl", "nephrolithotomy", "stone removal", "renal stone"],
+      "symptom_keywords": ["kidney pain", "flank pain", "blood in urine", "urinary pain"],
+      "specialty": "urology",
+      "hospital_stay_days": [3, 5],
+      "base_cost_inr": 80000,
+      "cost_range_factor": 0.7
+    },
+    {
+      "icd_code": "K80.2",
+      "condition": "Calculus of gallbladder",
+      "procedure": "Laparoscopic Cholecystectomy",
+      "procedure_short": "Gallbladder Removal",
+      "keywords": ["gallbladder", "cholecystectomy", "gallstone", "lap chole"],
+      "symptom_keywords": ["abdominal pain", "right side pain", "after meals pain", "nausea"],
+      "specialty": "general surgery",
+      "hospital_stay_days": [2, 4],
+      "base_cost_inr": 60000,
+      "cost_range_factor": 0.65
+    },
+    {
+      "icd_code": "C50.9",
+      "condition": "Breast cancer",
+      "procedure": "Breast Cancer Surgery + Chemotherapy",
+      "procedure_short": "Breast Cancer Treatment",
+      "keywords": ["breast cancer", "mastectomy", "lumpectomy", "breast tumor"],
+      "symptom_keywords": ["breast lump", "breast pain", "nipple discharge"],
+      "specialty": "oncology",
+      "hospital_stay_days": [5, 10],
+      "base_cost_inr": 350000,
+      "cost_range_factor": 0.9
+    },
+    {
+      "icd_code": "I63.9",
+      "condition": "Cerebral infarction",
+      "procedure": "Stroke Management & Rehabilitation",
+      "procedure_short": "Stroke Treatment",
+      "keywords": ["stroke", "brain attack", "paralysis", "cerebral infarction"],
+      "symptom_keywords": ["sudden weakness", "face drooping", "speech difficulty", "sudden confusion"],
+      "specialty": "neurology",
+      "hospital_stay_days": [7, 14],
+      "base_cost_inr": 150000,
+      "cost_range_factor": 0.85
+    },
+    {
+      "icd_code": "N18.5",
+      "condition": "Chronic kidney disease stage 5",
+      "procedure": "Kidney Dialysis (Hemodialysis)",
+      "procedure_short": "Dialysis",
+      "keywords": ["dialysis", "hemodialysis", "kidney failure", "ckd", "renal failure"],
+      "symptom_keywords": ["swelling", "reduced urine", "kidney failure symptoms"],
+      "specialty": "nephrology",
+      "hospital_stay_days": [1, 1],
+      "base_cost_inr": 15000,
+      "cost_range_factor": 0.6
+    },
+    {
+      "icd_code": "M16.1",
+      "condition": "Primary osteoarthritis of hip",
+      "procedure": "Total Hip Replacement",
+      "procedure_short": "Hip Replacement",
+      "keywords": ["hip replacement", "hip arthroplasty", "hip surgery", "thr"],
+      "symptom_keywords": ["hip pain", "groin pain", "difficulty walking", "limping"],
+      "specialty": "orthopedics",
+      "hospital_stay_days": [5, 8],
+      "base_cost_inr": 200000,
+      "cost_range_factor": 0.75
+    },
+    {
+      "icd_code": "G35",
+      "condition": "Multiple sclerosis",
+      "procedure": "Neurology Management + Immunotherapy",
+      "procedure_short": "MS Treatment",
+      "keywords": ["multiple sclerosis", "ms", "neurological disorder"],
+      "symptom_keywords": ["numbness", "weakness", "vision problems", "balance issues"],
+      "specialty": "neurology",
+      "hospital_stay_days": [3, 7],
+      "base_cost_inr": 100000,
+      "cost_range_factor": 0.8
+    },
+    {
+      "icd_code": "Z51.1",
+      "condition": "Encounter for antineoplastic chemotherapy",
+      "procedure": "Chemotherapy Cycle",
+      "procedure_short": "Chemotherapy",
+      "keywords": ["chemo", "chemotherapy", "cancer treatment"],
+      "symptom_keywords": ["cancer", "tumor", "malignancy"],
+      "specialty": "oncology",
+      "hospital_stay_days": [1, 3],
+      "base_cost_inr": 50000,
+      "cost_range_factor": 0.85
+    },
+    {
+      "icd_code": "K25.9",
+      "condition": "Gastric ulcer",
+      "procedure": "Upper GI Endoscopy + Treatment",
+      "procedure_short": "GI Endoscopy",
+      "keywords": ["endoscopy", "gastroscopy", "stomach ulcer", "upper gi"],
+      "symptom_keywords": ["stomach pain", "ulcer", "acidity", "black stools"],
+      "specialty": "gastroenterology",
+      "hospital_stay_days": [1, 2],
+      "base_cost_inr": 25000,
+      "cost_range_factor": 0.6
+    }
+  ]
+}
