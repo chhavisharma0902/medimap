@@ -76,7 +76,7 @@ export default function HospitalCard({ hospital, rank, isBest }) {
           {/* Stats row */}
           <div style={{ display: 'flex', gap: 20 }}>
             <Stat label="Rating" value={`⭐ ${hospital.rating}`} />
-            <Stat label="Beds" value={hospital.bed_count.toLocaleString()} />
+            <Stat label="Beds" value={hospital.bed_count?.toLocaleString() ?? 'N/A'} />
             {hospital.nabh && <Stat label="NABH" value="✓" accent />}
             {hospital.nabl && <Stat label="NABL" value="✓" accent />}
           </div>
